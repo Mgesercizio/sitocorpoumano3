@@ -1,0 +1,132 @@
+	body{
+			padding: 0px;
+			margin 0 auto;
+			font-family: Courier New;
+			font-size: 20px;
+			background-attachment: fixed;
+			background-color: 10002b;
+      color: white;
+		}
+		#title {
+			background-color: 5a189a;
+			padding: 4px;
+		  border-radius: 10px; 
+		  font-size: 4px;
+      box-shadow: 0 0 15px 5px rgba(1, 0, 5, 0.91); 
+	
+		}
+		nav{
+			background: white;
+			padding: 10px;
+			
+		}
+    hr{
+		  background-color: 3c096c;
+		  border: none;
+		  height: 5px;
+		}
+		#nav ul{
+			list-style-type: none;
+			justify-content: space-around;
+			display: flex;
+			padding: 0;
+			overflow: hidden;
+			align: center;
+		}
+		#nav li{
+			font-size: 40px;
+			margin-top: 50px;
+		}
+		#nav ul a{
+		  display: flex;
+			color: white;
+			text-decoration: none;
+			transition: all 0.5s;
+			font-family: 	Courier New;
+		}
+		#nav ul a:hover{
+		 color: lightblue;
+		 font-size: 50px;
+
+		}
+    	h1{
+			font-size: 50px;
+			font-family: Sans-Serif;
+      font-weight: bold;
+			margin-bottom: 70px;
+			background: -webkit-linear-gradient(#0402a1, #7143bf, #a10a02);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+		}
+		.logo{
+			height: 170px;
+			width: 170px;
+			margin-right: 170px;
+
+		}
+    	.body-but-footer {
+		  margin-top: 100px;
+		}
+        .laboratorio {
+            border: 2px solid white;
+            padding: 15px;
+            margin: 20px auto;       
+            background-color: 10002b; 
+            position: relative;        
+            width: 95%;              
+            max-width: 1500px;       
+        }
+        
+        .laboratorio img {
+            width: 100%;            
+            display: block;
+        }
+
+        .numero {
+            position: absolute;
+            background: red;
+            color: white;
+            padding: 8px;           
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30%;
+        }  
+
+        #n1 { top: 30%; left: 58%; }
+        #n2 { top: 32%; left: 50%; }
+        #n3 { top: 40%; left: 50%; }
+        #n4 { top: 60%; left: 55%; }
+
+        .sezione-organo {           
+            padding-top: 30%;   
+            padding-bottom: 40%; 
+            max-width: 800px;
+            margin: 0 auto;
+               
+        }
+img{
+  border-radius: 20px;
+ 
+}
+        .media-organo {
+            display: block;
+            margin: 20px auto;
+            max-width: 800px; 
+            border: 1px solid #ccc;
+}
+
+.numero:hover {
+    background-color: blue;    
+    color: yellow;             
+    transform: scale (1.2);     
+    transition: 0.3s;         
+    }
+
+
+.sezione-organo a:hover {
+    color: yellow;                
+    text-decoration: underline;
+    font-weight: bold;         
+    }
+        

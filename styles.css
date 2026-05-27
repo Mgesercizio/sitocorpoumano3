@@ -1,0 +1,126 @@
+	body{
+			padding: 0px;
+			margin 0 auto;
+			font-family: Verdana;
+			font-size: 20px;
+			background-attachment: fixed;
+			background-color: 000814;
+		}
+		#title {
+			background-color: 022b3a;
+			padding: 4px;
+		  border-radius: 10px; 
+		  font-size: 4px;
+      box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2); 
+	
+		}
+		nav{
+			background: white;
+			padding: 10px;
+			
+		}
+		#nav ul{
+			list-style-type: none;
+			justify-content: space-around;
+			display: flex;
+			padding: 0;
+			overflow: hidden;
+			align: center;
+		}
+		#nav li{
+			font-size: 40px;
+			margin-top: 50px;
+		}
+		#nav ul a{
+		  display: flex;
+			color: white;
+			text-decoration: none;
+			transition: all 0.5s;
+			font-family: 	Courier New;
+		}
+		#nav ul a:hover{
+		 color: lightblue;
+		 font-size: 50px;
+
+		}
+		.logo{
+			height: 170px;
+			width: 170px;
+			margin-right: 170px;
+		}
+		h1{
+			font-size: 50px;
+			font-family: Sans-Serif;
+			margin-bottom: 70px;
+			background: -webkit-linear-gradient( #804A00, #CD7F32);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+		}
+		.bios1{
+		 list-style-type: none;
+		 		  background-color: 64b5f6;
+
+			justify-content: space-around;
+			display: flex;
+			padding: 0;
+			overflow: hidden; 
+		}
+		.bios2{
+		  width: 65%;
+		  padding: 10px;
+		  margin-top: -11px;
+		  font-family: Courier New;
+
+		}
+		
+		banner-centrale h3{
+			align: center;
+			font-family: Impact;
+			font-size: 
+		}
+		hr{
+		  background-color: bfdbf7;
+		  border: none;
+		  height: 5px;
+		}
+		.pool-immagini td{
+			margin-bottom: 70px;
+			color:white;
+			
+		}
+		.pool-immagini td img{
+			border-radius: 20px;
+			
+		}
+		.body-but-footer {
+		  margin-top: 100px;
+		}
+		.immaginecentrale{
+		align-items: center;
+		}
+		.maindiv{
+		  background-color: 000814;
+		  color:white;
+		  padding: 10px;
+		  font-family: Courier New;
+		  
+		  font-weight: bold;
+		}
+		#sp-footer {
+			background-color:#383d3b;
+			color: #ffffff80;
+			padding: 40px;
+			height: 300px;
+		}
+		.list-footer {
+		  position: absolute;
+		  margin-top: -200px;
+		}
+		.list-footer li{
+			font-size: 22px;
+		}
+	a{
+	  text-decoration:none;
+	  color: white;
+	}
